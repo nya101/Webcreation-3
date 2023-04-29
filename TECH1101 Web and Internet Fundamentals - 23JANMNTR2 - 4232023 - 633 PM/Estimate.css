@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+    }.header {
+    min-height:100vh;
+    width: 100%;
+    background-color: (rgb(10, 87, 24), rgba(4,9,30,0.7)),url(images/nice_backyard_4.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    }
+    
+  .text-box h1{
+    
+    font-size: 62px;
+    
+    }
+    @media(max-width: 719px){
+    
+        .text-box h1{
+        font-size: 20px;
+    
+    } .calculator-container  h1 {
+
+
+        justify-content: center;
+
+    }
+    
+    } .calculator-container {
+        background-color: #f0f0f0;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        width: 450px;
+        margin: 0 auto;
+        
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      input, label {
+        margin: 10px 0;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 0;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      #total {
+        margin-top: 20px;
+        font-size: 18px;
+      } body {
+        background-image: url("mowing_lawn_4.jpg");
+        background-size: cover;
+      }
+      

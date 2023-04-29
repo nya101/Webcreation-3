@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+      }
+      
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       
+       
+      }
+      
+      li {
+        float: right;
+       
+      }
+      
+      li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: rgb(82, 77, 86);
+       
+      }
+      
+      li a:hover {
+      background-color: rgb(39, 33, 33);
+     
+      }.hero-btn{
+    
+        display: inline-block;
+        text-decoration: none;
+        color:#03200e;
+        border: 1px solid #096a23;
+        padding: 12px 34px;
+        font-size: 13px; 
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    
+    
+    }.hero-btn{
+    border: 1px solid #cec6c5;
+    background: #b0a7a7;
+    transition: 1s;
+    
+    } 
+    
+    
+     ion-icon {
+      font-size: 1.2em;
+      color: coral;
+
+
+     }
+     .testimonials p{
+
+
+        width: 50%; /* set the width of the container */
+        margin: 0 auto;
+   
+
+     }
+        .testimonials h3 {
+        width: 20%;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+
+
+      } .testimonials-col{
+
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+       
+
+      }
+      

@@ -1,0 +1,45 @@
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.container {
+position: relative;
+width: 100%;
+display: flex;
+
+
+}.contianer section {
+min-width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+list-style-type: disc;
+}.content  h3 { 
+
+align-items: center;
+
+
+
+
+} .content p {
+
+
+  text-indent: 70px;
+
+} .content p.big {
+
+
+  line-height: 1.8;
+
+}
